@@ -1,29 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header'
+import Navbar from './components/Navbar'
+import Profile from './components/Profile'
 
 const App = () => {
   return (
     <div className='app-wrapper'>
-      <header className='header'>
-        <img src='https://upload.wikimedia.org/wikipedia/ru/thumb/5/5f/NAVI_Logo.svg/1163px-NAVI_Logo.svg.png' />
-      </header>
-      <nav className='nav'>
-        <div>
-          <a href='#'>Profile</a>
-        </div>
-        <div>
-          <a href='#'>News</a>
-        </div>
-        <div>
-          <a href='#'>Messages</a>
-        </div>
-        <div>
-          <a href='#'>Music</a>
-        </div>
-      </nav>
-      <div className='content'>
-
-      </div>
+      <Header />
+      <Navbar/>
+      <Profile/>
     </div>
   );
 }
