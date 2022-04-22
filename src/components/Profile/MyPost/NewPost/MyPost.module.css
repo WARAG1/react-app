@@ -1,7 +1,11 @@
 .item {
-  color: white
+  color: black
 }
 
 .post {
   color: blueviolet
+}
+
+.item img{
+  width: 50px;
 }
