@@ -3,7 +3,13 @@
     background-color: black;
   }
 
-.item {
+.item a {
   color:white
 }
+
+.item a.activeLink {
+  color:gold
+
+}
+
   
